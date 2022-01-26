@@ -46,3 +46,52 @@
 ![2022-01-25 (10)](https://user-images.githubusercontent.com/92302123/151031254-5363c918-78e9-4a3c-8837-3de78fe0d062.png)
 ## Blockchain
 > ### visual of blockchain : https://andersbrownworth.com/blockchain
+## Smart Contracts
+>![2022-01-26](https://user-images.githubusercontent.com/92302123/151209449-2c1c81e8-459d-4fdc-a88d-4b4a3a2cdbe6.png)
+>
+> Right now, you can imagine a smart contract as being an account, just like the one that you and created on metamask. but rather than being controlled by a human being like you and me, it is controlled by some amount of code. and this is code that you and i or a developer in general is going to author. this code instructs the smart contract how to behave.
+>
+> Let's talk about some of the diffrent properties that are contained within a smart contract account.
+> ![2022-01-26 (1)](https://user-images.githubusercontent.com/92302123/151211081-064a6090-c6c8-4bd0-9604-5d4d5171f342.png)
+
+> ### External account
+> ![2022-01-26 (2)](https://user-images.githubusercontent.com/92302123/151212046-52833367-04fd-4e42-8439-876ff7250a9d.png)
+>   - External accounts are any account that you and i or a human being or an entity owns.
+>   - Remember that we had said that external accounts live in their own type of universe and they're completely decoupled from any individual network.
+
+> ### Contract account
+>   - These contract accounts are only specific to one individual network.
+>   - So when we create a contract account that contains our smart contract, we create it on one specific network and they cannot be accessed across networks.
+>   ![2022-01-26 (3)](https://user-images.githubusercontent.com/92302123/151213476-07f02509-327d-49d6-b1c6-ec7350e9a67e.png)
+
+> So this is the actual code that instructs the contract, how it should behave and ho it should handle money.
+> 
+> we will then take that contract code, that source code and deploy it to a network like say, Rinkeby.
+> 
+> when we deploy this contract code, it creates an instance of the contract or what we refered to as the contract account.
+
+## The solidity programming language
+> Solidity is an object-oriented programming language, meaning that it is organized by data or objects rather than functions or logic. Its main purpose is for developing smart contracts for the Ethereum blockchain.
+## First solidity code
+```
+pragma solidity ^0.4.17; // specifies the version of solidity that our code is written with
+
+contract Inbox{ // define a new contract (remmember classes!) that will have some number of methods and variables
+    string public message; // declares all of the instance variables (and their types) that will exist in this contract
+
+    // defines different functions that will be members of this contract
+    function Inbox(string initialMessage) public { // constructure
+        message = initialMessage;
+    }
+
+    function setMessage(string newMessage) public {
+        message = newMessage;
+    }
+    
+    function getMessage() public view returns (string) {
+        returns message;
+    }
+}
+```
+## Function Declararion
+> ![2022-01-26 (4)](https://user-images.githubusercontent.com/92302123/151223208-4ab6695b-874e-499a-a114-155be0191a62.png)
