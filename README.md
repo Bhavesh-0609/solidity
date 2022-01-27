@@ -95,3 +95,9 @@ contract Inbox{ // define a new contract (remmember classes!) that will have som
 ```
 ## Function Declararion
 > ![2022-01-26 (4)](https://user-images.githubusercontent.com/92302123/151223208-4ab6695b-874e-499a-a114-155be0191a62.png)
+## Behind the scene of deploying
+>![2022-01-27](https://user-images.githubusercontent.com/92302123/151407328-88048d86-5c48-40d0-ac50-eb622bd8ef9c.png)
+>![2022-01-27 (1)](https://user-images.githubusercontent.com/92302123/151407350-6b311591-60de-4601-83c8-e0d509aa7481.png)
+## More on running functions than you want to know
+> **Rule** : *We Want to change any data that gets stored on the blockchain, we are going to have to submit a transaction.*
+>- And what's more, not only do we have to submit the transaction, but we also have to wait for it to be mined or to go through that proof of work algorithm, and that can take anywhere from 10 to 30 seconds execute.
