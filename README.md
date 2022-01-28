@@ -104,3 +104,11 @@ contract Inbox{ // define a new contract (remmember classes!) that will have som
 > ![image](https://user-images.githubusercontent.com/92302123/151534682-014c7141-961e-4968-9efe-345c9f1573b8.png)
 ## Wei VS Ether
 > 1 ether = 10^18 wei (1,000,000,000,000,000,000 wei)
+## Gas Transaction
+>“Gas refers to the unit that measures the amount of computational effort required to execute specific operations on the Ethereum network. Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee.
+> ![image](https://user-images.githubusercontent.com/92302123/151585596-d589bc97-2bae-4671-94be-85edaecd75c2.png)
+## Mnemonic phrases
+>![image](https://user-images.githubusercontent.com/92302123/151589264-21e34e71-6d31-419d-9211-7c53b1a11bf2.png)
+> Mnemonic to public/private and address converter : https://iancoleman.io/bip39/
+## Getting more test ether (0.1 ether in one request in Rinkenby account)
+> https://faucets.chain.link/rinkeby
