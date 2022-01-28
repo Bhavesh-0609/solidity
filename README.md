@@ -101,3 +101,6 @@ contract Inbox{ // define a new contract (remmember classes!) that will have som
 ## More on running functions than you want to know
 > **Rule** : *We Want to change any data that gets stored on the blockchain, we are going to have to submit a transaction.*
 >- And what's more, not only do we have to submit the transaction, but we also have to wait for it to be mined or to go through that proof of work algorithm, and that can take anywhere from 10 to 30 seconds execute.
+> ![image](https://user-images.githubusercontent.com/92302123/151534682-014c7141-961e-4968-9efe-345c9f1573b8.png)
+## Wei VS Ether
+> 1 ether = 10^18 wei (1,000,000,000,000,000,000 wei)
